@@ -1,0 +1,6 @@
+<% if @file != '' -%>
+<% tag = "tag:#{@paramtag}," if @paramtag -%>
+<% hostname = ",#{@hostname}" if @hostname -%>
+<% bootserver = ",#{@bootserver}" if @bootserver -%>
+dhcp-boot=<%= "#{tag}#{@file}#{hostname}#{bootserver}" %>
+<% end -%>
