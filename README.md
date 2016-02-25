@@ -1,3 +1,3 @@
 # mydemo
 dnsmasq
-try to connect host-server for DNS and DHCP
+DHCP and DNS config_demo
